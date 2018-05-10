@@ -6,6 +6,7 @@ Please note that script needs a bit of manual editing to work (edit the file and
 ## Getting started ##
 
 * Set up DFP API access via a service account (https://developers.google.com/doubleclick-publishers/docs/authentication#service)
+* Edit your adsapi-php.ini to include the network id and the impersonated email
 * Download the Googleads PHP library to a new directory (https://github.com/googleads/googleads-php-lib) and follow setup instructions
 * Set up Prebid creatives in DFP (http://prebid.org/adops/step-by-step.html#step-2-add-a-creative). Make sure you have a copy for each of the ad units you have on your page. Note the creative IDs. 
 * Place PHP file in the root of the new dir and run from the command line. Estimated completion time is a couple of hours.
